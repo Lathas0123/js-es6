@@ -10,7 +10,7 @@ console.log(variable);
 
 const maxMarks = 100;
 console.log(maxMarks);
- maxMarks = 99; // Won't work
+// maxMarks = 99; // Won't work
 
 // Block scope
 function reset() {
@@ -26,10 +26,10 @@ console.log("ARROW FUNCTIONS");
 const addNumbers = function (number1,number2){
     return number1 + number2;
 };
-console.log(addNumbers(10, 3));
+console.log(addNumbers(10, 23));
 
 const multiplyNumbers = (number1,number2) => number1 * number2;
-console.log(multiplyNumbers(10, 3));
+console.log(multiplyNumbers(10, 23));
 
 const greet = () => {
     console.log("Hello!");
@@ -37,7 +37,7 @@ const greet = () => {
 greet();
 
 const greetFriend = friend => console.log(friend);
-greetFriend("Taj");
+greetFriend("sarasu");
 
 // Default Parameters
 console.log("DEFAULT PARAMETERS");

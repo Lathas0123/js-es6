@@ -1,7 +1,7 @@
 // let & const
 
 console.log("LET & CONST");
-let variable = "Test";
+let variable = "Latha";
 console.log(variable);
 // ✅null 
 
@@ -10,7 +10,7 @@ console.log(variable);
 
 const maxMarks = 100;
 console.log(maxMarks);
-// maxMarks = 99; // Won't work
+ maxMarks = 99; // Won't work
 
 // Block scope
 function reset() {

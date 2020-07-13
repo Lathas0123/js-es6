@@ -80,7 +80,7 @@ console.log(myHobby1,myHobby2);
 
 
 //Destructuring - Objects
-const userData = {username: "Salman",age:24}
+const userData = {username: "Swamy",age:44}
 const myName = userData.username;
 const age = userData.age;
 console.log(myName,age);
@@ -98,7 +98,7 @@ console.log(myName,age);
 
 //Template Literals
 
-const myFriendName = 'Taj';
+const myFriendName = 'gowri';
 const greeting = "Happy Birthday " + myFriendName + ", Have a Great year ahead.";
 console.log(greeting);
 
